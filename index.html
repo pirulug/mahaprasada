@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maha Prasada | Cocina Vegana, Natural y Saludable en Huancayo</title>
+
+  <!-- Meta Tags SEO -->
+  <meta name="description"
+    content="Descubre Maha Prasada, restaurante de comida vegana en Huancayo. Ofrecemos desayunos, almuerzos, postres y jugos 100% naturales, saludables y orgánicos. ¡Visítanos!">
+  <meta name="keywords"
+    content="comida vegana huancayo, restaurante vegano huancayo, restaurante saludable, comida organica, maha prasada, jugos naturales, postres veganos">
+  <meta name="author" content="Maha Prasada">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Maha Prasada | Cocina Vegana y Natural">
+  <meta property="og:description"
+    content="Experiencia gastronómica saludable, consciente y deliciosa en Huancayo. 100% Plant-Based.">
+  <meta property="og:image"
+    content="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1200&auto=format&fit=crop">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/flower1.svg">
+
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Bootstrap Icons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ==========================================
+       NAVBAR (Navegación)
+       ========================================== -->
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top" id="mainNavbar">
+    <div class="container">
+      <a class="navbar-brand navbar-brand-custom" href="#inicio" id="navLogo">
+        <i class="bi bi-flower1"></i> Maha Prasada
+      </a>
+
+      <button class="navbar-toggler navbar-toggler-custom" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="bi bi-list fs-1"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom active" href="#inicio" id="link-inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="#nosotros" id="link-nosotros">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="#especialidades" id="link-especialidades">Especialidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="#galeria" id="link-galeria">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="#beneficios" id="link-beneficios">Beneficios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-custom" href="#contacto" id="link-contacto">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contacto" class="btn btn-custom-primary ms-lg-3 d-none d-lg-inline-block"
+              id="btn-nav-reservar">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==========================================
+       HERO SECTION (Portada)
+       ========================================== -->
+  <section class="hero-section" id="inicio">
+    <div class="hero-deco-1"></div>
+    <div class="hero-deco-2"></div>
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Contenido de Texto -->
+        <div class="col-lg-6 hero-content text-lg-start text-center reveal-left">
+          <span class="hero-tagline">🌱 Alimentación Consciente</span>
+          <h1 class="hero-title">
+            Comida vegana que inspira tu <span>bienestar</span> diario
+          </h1>
+          <p class="hero-desc">
+            En <strong>Maha Prasada</strong> elaboramos platillos 100% plant-based llenos de color, vida y frescura.
+            Redescubre el sabor de la tierra con insumos locales del valle de Huancayo.
+          </p>
+          <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
+            <a href="#especialidades" class="btn btn-custom-primary" id="btn-hero-menu">Ver Menú</a>
+            <a href="#contacto" class="btn btn-custom-secondary" id="btn-hero-contact">Visítanos</a>
+          </div>
+        </div>
+
+        <!-- Collage de Imágenes -->
+        <div class="col-lg-6 mt-5 mt-lg-0 reveal-right">
+          <div class="hero-collage d-none d-md-block">
+            <div class="hero-img-wrapper hero-img-1">
+              <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800&auto=format&fit=crop"
+                alt="Bowl Vegano Saludable Recién Preparado" loading="lazy">
+            </div>
+            <div class="hero-img-wrapper hero-img-2">
+              <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=600&auto=format&fit=crop"
+                alt="Ensalada Fresca de Vegetales Orgánicos" loading="lazy">
+            </div>
+            <div class="hero-badge">
+              <span>100%<br>Natural</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SOBRE NOSOTROS (Historia y Filosofía)
+       ========================================== -->
+  <section class="about-section" id="nosotros">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Collage de Imágenes Izquierda -->
+        <div class="col-lg-6 mb-5 mb-lg-0 reveal-left">
+          <div class="about-img-collage">
+            <div class="about-img-wrapper about-img-1">
+              <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=800&auto=format&fit=crop"
+                alt="Ambiente natural y acogedor de Maha Prasada" loading="lazy">
+            </div>
+            <div class="about-img-wrapper about-img-2">
+              <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=600&auto=format&fit=crop"
+                alt="Preparación artesanal de plato vegano" loading="lazy">
+            </div>
+          </div>
+        </div>
+
+        <!-- Texto Historia y Filosofía Derecha -->
+        <div class="col-lg-6 ps-lg-5 reveal-right">
+          <span class="section-subtitle">Nuestra Filosofía</span>
+          <h2 class="section-title">Sabores honestos, respetando la naturaleza</h2>
+          <p>
+            <strong>Maha Prasada</strong> nació de un sueño sencillo: crear un espacio donde la cocina sea medicina,
+            respeto y celebración de la vida. Ubicados en el corazón de Huancayo, nos inspiramos en los ingredientes
+            andinos y de la tierra para ofrecer una propuesta culinaria 100% plant-based.
+          </p>
+          <p>
+            Creemos firmemente en el poder de los ingredientes locales. Trabajamos en estrecha colaboración con pequeños
+            agricultores de la región, asegurándonos de que cada vegetal, semilla y fruto seco en tu mesa haya sido
+            cultivado con amor, libre de pesticidas y respetando los ciclos de la naturaleza.
+          </p>
+
+          <div class="about-philosophy-box">
+            <p>
+              "Nuestra cocina no solo satisface el apetito, busca nutrir tu mente y revitalizar tu cuerpo en un ambiente
+              de paz y conexión natural."
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       ESPECIALIDADES (Menú Destacado)
+       ========================================== -->
+  <section class="specs-section" id="especialidades">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-8 text-center reveal">
+          <span class="section-subtitle">Lo Mejor de Nuestra Carta</span>
+          <h2 class="section-title-center">Especialidades de la Casa</h2>
+          <p class="lead">
+            Una cuidada selección de creaciones diseñadas para sorprender a tu paladar y nutrir tu cuerpo.
+          </p>
+        </div>
+      </div>
+
+      <!-- Grid de Especialidades -->
+      <div class="row g-4 justify-content-center">
+        <!-- 1. Desayunos Veganos -->
+        <div class="col-lg-4 col-md-6 reveal delay-100">
+          <div class="spec-card">
+            <div class="spec-img-container">
+              <img src="https://images.unsplash.com/photo-1541518763669-27fef04b14ea?q=80&w=600&auto=format&fit=crop"
+                alt="Tostadas de masa madre con aguacate y germinados" loading="lazy">
+              <span class="spec-category-badge">Desayunos</span>
+              <div class="spec-diet-tags">
+                <span class="diet-tag">Sin Lactosa</span>
+                <span class="diet-tag">100% Vegano</span>
+              </div>
+            </div>
+            <div class="spec-body">
+              <h3 class="spec-title">Tostadas de Masa Madre & Aguacate</h3>
+              <p class="spec-desc">
+                Pan crujiente de fermentación lenta untado con aguacate cremoso, germinados orgánicos de alfalfa,
+                semillas de calabaza tostadas y escamas de sal marina rosa.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Almuerzos Saludables -->
+        <div class="col-lg-4 col-md-6 reveal delay-200">
+          <div class="spec-card">
+            <div class="spec-img-container">
+              <img src="https://images.unsplash.com/photo-1543339308-43e59d6b73a6?q=80&w=600&auto=format&fit=crop"
+                alt="Bowl andino con quinua, garbanzos y camote" loading="lazy">
+              <span class="spec-category-badge">Almuerzos</span>
+              <div class="spec-diet-tags">
+                <span class="diet-tag">Proteico</span>
+                <span class="diet-tag">Sin Gluten</span>
+              </div>
+            </div>
+            <div class="spec-body">
+              <h3 class="spec-title">Bowl Andino de Quinua & Garbanzos</h3>
+              <p class="spec-desc">
+                Quinua tricolor orgánica del valle, garbanzos crujientes especiados, camote dulce asado, dados de
+                aguacate y col rizada aliñada con crema de tahini y limón.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Jugos Naturales -->
+        <div class="col-lg-4 col-md-6 reveal delay-300">
+          <div class="spec-card">
+            <div class="spec-img-container">
+              <img src="https://images.unsplash.com/photo-1610970881699-44a5587caa90?q=80&w=600&auto=format&fit=crop"
+                alt="Jugo extractor verde prensado en frío" loading="lazy">
+              <span class="spec-category-badge">Jugos</span>
+              <div class="spec-diet-tags">
+                <span class="diet-tag">Detox</span>
+                <span class="diet-tag">Sin Azúcar</span>
+              </div>
+            </div>
+            <div class="spec-body">
+              <h3 class="spec-title">Extractor Verde Vitalidad</h3>
+              <p class="spec-desc">
+                Nutritivo zumo prensado en frío elaborado al momento con hojas de espinaca orgánica, manzana verde
+                crujiente, pepino, jengibre y un toque de limón andino.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Postres Veganos -->
+        <div class="col-lg-4 col-md-6 reveal delay-100">
+          <div class="spec-card">
+            <div class="spec-img-container">
+              <img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?q=80&w=600&auto=format&fit=crop"
+                alt="Raw cheesecake de maracuyá vegano" loading="lazy">
+              <span class="spec-category-badge">Postres</span>
+              <div class="spec-diet-tags">
+                <span class="diet-tag">Crudo/Raw</span>
+                <span class="diet-tag">Endulzado Natural</span>
+              </div>
+            </div>
+            <div class="spec-body">
+              <h3 class="spec-title">Cheesecake Raw de Maracuyá</h3>
+              <p class="spec-desc">
+                Suave tarta helada cruda de castañas de cajú y pulpa orgánica de maracuyá sobre una base crujiente de
+                almendras y dátiles. Libre de lácteos y azúcares refinados.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Comida Orgánica -->
+        <div class="col-lg-4 col-md-6 reveal delay-200">
+          <div class="spec-card">
+            <div class="spec-img-container">
+              <img src="https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?q=80&w=600&auto=format&fit=crop"
+                alt="Ensalada silvestre de brotes y flores silvestres" loading="lazy">
+              <span class="spec-category-badge">Comida Orgánica</span>
+              <div class="spec-diet-tags">
+                <span class="diet-tag">100% Orgánico</span>
+                <span class="diet-tag">Fibra Activa</span>
+              </div>
+            </div>
+            <div class="spec-body">
+              <h3 class="spec-title">Ensalada Silvestre de Brotes & Flores</h3>
+              <p class="spec-desc">
+                Mix de hojas hidropónicas locales, brotes tiernos de estación, flores del huerto comestibles, nueces
+                tostadas y vinagreta artesanal de frutos rojos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       GALERÍA (Estilo Instagram)
+       ========================================== -->
+  <section class="gallery-section" id="galeria">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-8 text-center reveal">
+          <span class="section-subtitle">Visualiza Nuestra Experiencia</span>
+          <h2 class="section-title-center">Galería del Restaurante</h2>
+          <p>
+            Platos vibrantes llenos de nutrientes y rincones acogedores diseñados para tu relax. Síguenos y comparte tu
+            foto.
+          </p>
+        </div>
+      </div>
+
+      <!-- Grid de Galería -->
+      <div class="gallery-grid reveal">
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?q=80&w=600&auto=format&fit=crop"
+            alt="Ingredientes veganos coloridos" loading="lazy">
+          <div class="gallery-overlay">
+            <i class="bi bi-instagram"></i>
+            <p>@maha.prasada</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?q=80&w=600&auto=format&fit=crop"
+            alt="Menú saludable servido en la mesa" loading="lazy">
+          <div class="gallery-overlay">
+            <i class="bi bi-instagram"></i>
+            <p>Platos con Alma</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=600&auto=format&fit=crop"
+            alt="Buddha bowl vegano" loading="lazy">
+          <div class="gallery-overlay">
+            <i class="bi bi-instagram"></i>
+            <p>100% Plant-Based</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?q=80&w=600&auto=format&fit=crop"
+            alt="Plato Gourmet Ensalada" loading="lazy">
+          <div class="gallery-overlay">
+            <i class="bi bi-instagram"></i>
+            <p>Arte en el Plato</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?q=80&w=600&auto=format&fit=crop"
+            alt="Interior acogedor y verde del local" loading="lazy">
+          <div class="gallery-overlay">
+            <i class="bi bi-instagram"></i>
+            <p>Rincón Natural</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=600&auto=format&fit=crop"
+            alt="Cocinero preparando platos con cuidado" loading="lazy">
+          <div class="gallery-overlay">
+            <i class="bi bi-instagram"></i>
+            <p>Hecho con Amor</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       BENEFICIOS
+       ========================================== -->
+  <section class="benefits-section" id="beneficios">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-8 text-center reveal">
+          <span class="section-subtitle">¿Qué nos hace únicos?</span>
+          <h2 class="section-title-center">Los Beneficios de Elegir Maha Prasada</h2>
+          <p>
+            Nos tomamos en serio tu nutrición y el cuidado del planeta. Ofrecemos más que solo comida deliciosa.
+          </p>
+        </div>
+      </div>
+
+      <!-- Grid de Beneficios -->
+      <div class="row g-4 justify-content-center">
+        <!-- 1. Ingredientes Naturales -->
+        <div class="col-lg-4 col-md-6 reveal delay-100">
+          <div class="benefit-card">
+            <div class="benefit-icon-box">
+              <i class="bi bi-tree"></i>
+            </div>
+            <h3 class="benefit-title">Ingredientes Naturales</h3>
+            <p class="benefit-desc">
+              Platos 100% frescos, libres de aditivos, preservantes o químicos. Comida real para potenciar tu salud
+              desde la raíz.
+            </p>
+          </div>
+        </div>
+
+        <!-- 2. Alimentación Saludable -->
+        <div class="col-lg-4 col-md-6 reveal delay-200">
+          <div class="benefit-card">
+            <div class="benefit-icon-box">
+              <i class="bi bi-heart-pulse"></i>
+            </div>
+            <h3 class="benefit-title">Alimentación Saludable</h3>
+            <p class="benefit-desc">
+              Menús balanceados que reúnen grasas buenas, proteínas y carbohidratos complejos de alta calidad para
+              llenarte de energía limpia.
+            </p>
+          </div>
+        </div>
+
+        <!-- 3. Opciones Veganas -->
+        <div class="col-lg-4 col-md-6 reveal delay-300">
+          <div class="benefit-card">
+            <div class="benefit-icon-box">
+              <i class="bi bi-flower1"></i>
+            </div>
+            <h3 class="benefit-title">Opciones 100% Veganas</h3>
+            <p class="benefit-desc">
+              Carta totalmente libre de ingredientes de origen animal. Un espacio seguro para veganos, vegetarianos e
+              intolerantes a la lactosa.
+            </p>
+          </div>
+        </div>
+
+        <!-- 4. Ambiente Acogedor -->
+        <div class="col-lg-4 col-md-6 reveal delay-100">
+          <div class="benefit-card">
+            <div class="benefit-icon-box">
+              <i class="bi bi-house-heart"></i>
+            </div>
+            <h3 class="benefit-title">Ambiente Acogedor</h3>
+            <p class="benefit-desc">
+              Un local diseñado con madera, plantas y luz natural. Un refugio de paz en la ciudad para disfrutar de tu
+              comida con calma.
+            </p>
+          </div>
+        </div>
+
+        <!-- 5. Atención de Calidad -->
+        <div class="col-lg-4 col-md-6 reveal delay-200">
+          <div class="benefit-card">
+            <div class="benefit-icon-box">
+              <i class="bi bi-stars"></i>
+            </div>
+            <h3 class="benefit-title">Atención de Calidad</h3>
+            <p class="benefit-desc">
+              Servicio esmerado por personas que aman la comida y el bienestar. Nos aseguramos de que te sientas como en
+              casa desde que entras.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       UBICACIÓN Y CONTACTO
+       ========================================== -->
+  <section class="contact-section" id="contacto">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-8 text-center reveal">
+          <span class="section-subtitle">Encuéntranos o Escríbenos</span>
+          <h2 class="section-title-center">Contacto y Horarios</h2>
+          <p>
+            Te esperamos en Huancayo para compartir la mejor experiencia gastronómica vegana. ¡Reserva o consúltanos!
+          </p>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <!-- Columna de Información -->
+        <div class="col-lg-5 reveal-left">
+          <div class="contact-info-card">
+            <h3 class="display-font fs-3 mb-4 text-primary">Información de Contacto</h3>
+
+            <!-- Dirección -->
+            <div class="contact-item">
+              <div class="contact-icon-wrapper">
+                <i class="bi bi-geo-alt"></i>
+              </div>
+              <div class="contact-item-details">
+                <h4>Dirección</h4>
+                <p>Jr Cusco N° 289, Huancayo, Junín, Perú</p>
+              </div>
+            </div>
+
+            <!-- Teléfono -->
+            <div class="contact-item">
+              <div class="contact-icon-wrapper">
+                <i class="bi bi-telephone"></i>
+              </div>
+              <div class="contact-item-details">
+                <h4>WhatsApp / Teléfono</h4>
+                <p>+51 987 654 321</p>
+              </div>
+            </div>
+
+            <!-- Horario -->
+            <div class="contact-item">
+              <div class="contact-icon-wrapper">
+                <i class="bi bi-clock"></i>
+              </div>
+              <div class="contact-item-details">
+                <h4>Horario de Atención</h4>
+                <p>Lunes a Sábado: 8:00 AM - 9:00 PM<br>Domingos: 9:00 AM - 4:00 PM</p>
+              </div>
+            </div>
+
+            <!-- Botones Sociales -->
+            <div class="contact-social-buttons">
+              <!-- Botón Google Maps -->
+              <a href="https://maps.app.goo.gl/Lx42kM1ngJ4ETN2C9" target="_blank" rel="noopener noreferrer"
+                class="btn btn-contact btn-contact-maps" id="btn-maps">
+                <i class="bi bi-map"></i> Cómo llegar (Google Maps)
+              </a>
+
+              <!-- Botón Facebook -->
+              <a href="https://www.facebook.com/maha.prasada" target="_blank" rel="noopener noreferrer"
+                class="btn btn-contact btn-contact-fb" id="btn-facebook">
+                <i class="bi bi-facebook"></i> Facebook Oficial
+              </a>
+
+              <!-- Botón WhatsApp -->
+              <a href="https://wa.me/51987654321?text=Hola%20Maha%20Prasada,%20quisiera%20hacer%20una%20consulta%20o%20reserva."
+                target="_blank" rel="noopener noreferrer" class="btn btn-contact btn-contact-wa" id="btn-whatsapp-chat">
+                <i class="bi bi-whatsapp"></i> Chat en WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Columna de Mapa -->
+        <div class="col-lg-7 reveal-right">
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.888718918235!2d-75.21323382494958!3d-12.067664688170889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9108933b94a973a9%3A0xc31cb801de20a8fe!2sJr.%20Cusco%20289%2C%20Huancayo%2012001!5e0!3m2!1ses!2spe!4v1716499876251!5m2!1ses!2spe"
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              title="Ubicación de Maha Prasada en Jr Cusco 289, Huancayo">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FOOTER (Pie de Página)
+       ========================================== -->
+  <footer class="footer-section">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Columna 1: Logo e Inspiración -->
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-logo">
+            <i class="bi bi-flower1"></i> Maha Prasada
+          </div>
+          <p class="footer-quote">
+            "Que tu alimento sea tu medicina y tu medicina tu alimento." Ofrecemos sabor, salud y conciencia en cada
+            bocado en Huancayo.
+          </p>
+        </div>
+
+        <!-- Columna 2: Enlaces Rápidos -->
+        <div class="col-lg-2 col-md-6">
+          <h3 class="footer-title">Enlaces</h3>
+          <ul class="footer-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Sobre Nosotros</a></li>
+            <li><a href="#especialidades">Especialidades</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#beneficios">Beneficios</a></li>
+          </ul>
+        </div>
+
+        <!-- Columna 3: Información de Contacto -->
+        <div class="col-lg-3 col-md-6">
+          <h3 class="footer-title">Contacto</h3>
+          <ul class="footer-links">
+            <li><i class="bi bi-geo-alt me-2 text-secondary"></i> Jr. Cusco N° 289, Huancayo</li>
+            <li><i class="bi bi-telephone me-2 text-secondary"></i> +51 987 654 321</li>
+          </ul>
+        </div>
+
+        <!-- Columna 4: Redes Sociales -->
+        <div class="col-lg-3 col-md-6">
+          <h3 class="footer-title">Síguenos</h3>
+          <p class="text-white-50 small mb-3">Síguenos en nuestras redes sociales para enterarte de novedades y eventos.
+          </p>
+          <div class="footer-social-icons">
+            <a href="https://www.facebook.com/maha.prasada" target="_blank" rel="noopener noreferrer"
+              class="footer-social-icon" aria-label="Visítanos en Facebook">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://www.facebook.com/maha.prasada" target="_blank" rel="noopener noreferrer"
+              class="footer-social-icon" aria-label="Visítanos en Instagram">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://wa.me/51987654321" target="_blank" rel="noopener noreferrer" class="footer-social-icon"
+              aria-label="Contáctanos por WhatsApp">
+              <i class="bi bi-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Divisor y Copyright -->
+      <div class="footer-divider"></div>
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="footer-copyright">
+            &copy; 2026 Maha Prasada. Todos los derechos reservados.
+          </p>
+        </div>
+        <div class="col-md-6 text-center text-md-end mt-2 mt-md-0">
+          <p class="footer-copyright small">
+            Hecho con <i class="bi bi-heart-fill text-danger"></i> para una alimentación saludable y feliz.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       BOTÓN FLOTANTE DE WHATSAPP
+       ========================================== -->
+  <a href="https://wa.me/51987654321?text=Hola%20Maha%20Prasada,%20quisiera%20hacer%20una%20consulta%20o%20reserva."
+    target="_blank" rel="noopener noreferrer" class="whatsapp-floating" aria-label="Chatear en WhatsApp"
+    id="floating-whatsapp">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+
+  <!-- ==========================================
+       SCRIPTS (Bootstrap 5 Bundle & Custom JS)
+       ========================================== -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
